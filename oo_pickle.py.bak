@@ -1,0 +1,8 @@
+#coding=utf8
+#pickle 腌制
+import pickle
+lista=["明月","几时","有"]
+dumplista=pickle.dumps(lista)
+print dumplista
+listc=pickle.loads(dumplista)
+print listc
